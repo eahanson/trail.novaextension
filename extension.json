@@ -1,0 +1,36 @@
+{
+  "activationEvents": ["*"],
+  "bugs": "https://github.com/eahanson/trail.novaextension/issues",
+  "categories": ["commands"],
+  "commands": {
+    "editor": [
+      {
+        "title": "Push Waypoint",
+        "command": "trail.push",
+        "when": "*",
+        "shortcut": "ctrl-opt-cmd-]"
+      },
+      {
+        "title": "Pop Waypoint",
+        "command": "trail.pop",
+        "when": "*",
+        "shortcut": "ctrl-opt-cmd-["
+      },
+      {
+        "title": "Pop To Waypoint…",
+        "command": "trail.pop_to",
+        "when": "*",
+        "shortcut": "ctrl-opt-cmd-\\"
+      }
+    ]
+  },
+  "description": "Create a trail of editor positions as you navigate code so that you can easily get back to where you came from.",
+  "entitlements": {},
+  "homepage": "https://github.com/eahanson/trail.novaextension",
+  "identifier": "eahanson.trail",
+  "main": "main.js",
+  "name": "Trail",
+  "organization": "Erik Hanson",
+  "repository": "https://github.com/eahanson/trail.novaextension",
+  "version": "1.0.0"
+}
